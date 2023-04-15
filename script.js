@@ -16,7 +16,7 @@ function addUserFun(){
 	let profValue = prof.value;
 	let ageValue = Number(age.value);
 
-	if (eNameValue == "" || profValue == "" || ageValue == "") {
+	if (eNameValue == "" || profValue == "" || ageValue < 18) {
 		error.style.display = "block";
 		success.style.display = "none";
 	}
