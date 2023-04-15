@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+body{
+    padding: 50px;
+}
+
+.new{
+    margin: -10px 0px 30px 0px;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+}
+
+div{
+    width:100%;
+}
+
+button{
+    padding: 5px 30px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.added{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.error, .success{
+    margin: 20px 0px 20px 0px;
+}
+
+.error{
+    color: red;
+    display: none;
+}
+
+.success{
+    color: lightgreen;
+    display: none;
+}
+
+.msg{
+    margin-top: 20px;
+    color: gray;
+}
+
+.added-employees{
+    column-gap: 30px;
+    margin-top: 20px;
+    display: none;
+}
+
+.info{
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+    padding: 10px;
+}
+
+.del-btn{
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
